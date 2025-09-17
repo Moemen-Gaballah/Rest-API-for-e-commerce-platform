@@ -14,9 +14,4 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping("/hello")
-    public String sayHello(){
-        return "index.html";
-    }
-
 }
